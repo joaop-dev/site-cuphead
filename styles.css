@@ -70,9 +70,37 @@ ul {
   margin-left: 20px;
 }
 
+li {
+  padding: 20px;
+  display: inline-block;
+  text-align: initial;
+}
+
 footer {
   background-color: #ff3333;
   color: #fff;
   text-align: center;
   padding: 10px 0;
+}
+
+#personagens img {
+  width: 30%;
+  height: auto;
+  align-content: center;
+}
+
+.box-video {
+  position: relative;
+  background-color: #ffcc00;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  margin: 0px;
+}
+
+.box-video iframe {
+  position: absolute;
+  top: 2.5%;
+  left: 5%;
+  width: 90%;
+  height: 95%;
 }
