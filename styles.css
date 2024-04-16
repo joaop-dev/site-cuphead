@@ -9,18 +9,31 @@ body {
 
 header {
   background-color: #ff3333;
-  padding: 15px 0;
   text-align: center;
+  display: flow-root;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 h1 {
   font-size: 36px;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
   color: #fff;
+  margin: 0;
+  color: #fff;
+  margin-top: 30px;
 }
 
 nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
 }
 
 nav ul li {
@@ -31,6 +44,20 @@ nav ul li {
 nav a {
   color: #fff;
   text-decoration: none;
+}
+
+.logo-right {
+  width: 60px;
+  height: auto;
+  float: right;
+  margin-left: 10px;
+}
+
+.logo-left {
+  width: 60px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
 }
 
 main {
